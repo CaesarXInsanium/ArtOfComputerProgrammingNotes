@@ -1,0 +1,27 @@
+* Notes on Book "The Art of Computer Programming"
+
+** Why Does This Repo Exist?
+  This repo exists because in the future when I have time I want to be able to
+  read and write org mode files.
+
+
+** Goal's
+
+- [x] Take notes on important things
+- [ ] finish the exercises
+- [ ] learn how to use ORG Mode on Neovim
+- [ ] take notes in org mode format
+- [ ] Read and reread the Material
+- [ ] export documents using Pandoc
+- [ ] get apply for job at Microsoft and then reject offer
+- [ ] write a README
+
+** Random Org Mode Notes
+
+- "g?" in order to get keybindings
+
+#+begin_src python
+import tensorflow as tf
+import numpy as np
+#+end_src
+
