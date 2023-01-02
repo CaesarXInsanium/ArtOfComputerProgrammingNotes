@@ -19,6 +19,7 @@
 ** Random Org Mode Notes
 
 - "g?" in order to get keybindings
+- The example_org.org file will feature some org formatting examples.
 
 #+begin_src python
 import tensorflow as tf
