@@ -20,6 +20,7 @@
 
 - "g?" in order to get keybindings
 - The example_org.org file will feature some org formatting examples.
+- documentation for MDK [GNU MIX Development Kit](https://www.gnu.org/software/mdk/manual/html_node/index.html)
 
 #+begin_src python
 import tensorflow as tf
