@@ -1,0 +1,8 @@
+* Notes From GNU MDK Manual
+
+Reading the GNU MDK Manual I have come to the conclusion that my brain is too
+small.
+
+** Mix Computer
+
+*** Third Level Header

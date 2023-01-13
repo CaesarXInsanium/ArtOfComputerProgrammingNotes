@@ -7,7 +7,7 @@
 
 ** Goal's
 
-- [x] Take notes on important things
+- [X] Take notes on important things
 - [ ] finish the exercises
 - [ ] learn how to use ORG Mode on Neovim
 - [ ] take notes in org mode format
@@ -16,14 +16,20 @@
 - [ ] get apply for job at Microsoft and then reject offer
 - [ ] write a README
 
-** Random Org Mode Notes
+** Random NIVM Org Mode Notes
 
 - "g?" in order to get keybindings
 - The example_org.org file will feature some org formatting examples.
-- documentation for MDK [GNU MIX Development Kit](https://www.gnu.org/software/mdk/manual/html_node/index.html)
+- Documentation for MDK [GNU MIX Development Kit](https://www.gnu.org/software/mdk/manual/html_node/index.html)
 
-#+begin_src python
-import tensorflow as tf
-import numpy as np
-#+end_src
+** Overall Book Notes
+
+- procedure for reading chapters on early part of Book 1 
+- exercises ratings, difficulty scales logarithmic
+  - 00 easy
+  - 10 think
+  - 20 normal problem, should use pen and paper
+  - 30 somewhat hard, will require rigor
+  - 40 term project
+  - 50 research problem
 
