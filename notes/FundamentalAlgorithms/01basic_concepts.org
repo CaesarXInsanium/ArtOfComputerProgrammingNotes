@@ -14,6 +14,15 @@ def gcd(m, n):
     return n
   else:
     return gcd(n, r)
+
+#+end_src
+
+#+begin_src scheme
+(define (gcd m n)
+  (let ((r (// m n)))
+       (if (== r 0)
+           n
+           (gcd n r))))
 #+end_src
 
 Algorithms are defined by first stating the sort of problem that is to be solved.
@@ -33,3 +42,26 @@ An algorithm has certain properties
 5. Good Algorithms must be proven to yield the correct results, at least good enough
 
 **** Defining Computational Methods with Set Theory
+
+The book goes on to give a definition of Algorithms using tools from set theory.
+A computational method is a somewhat universe of sets and subsets that define an
+algorithm. A quadruped with terms
+
+\begin{equation}
+(Q, I, \Omega, f)
+\end{equation}
+
+F denotes the computational rule, the algorithm, set of steps in order to
+compute $\Omega$ which is the set of all possible outputs of f. I denote
+all possible inputs to f and Q denotes all possible inner states of the function
+given the input and the output, all the possible machine states required in
+order to compute problem.
+
+Set I is an ordered set where
+
+\begin{equation}
+x_0 = x
+\end{equation}
+
+Here x is any number. All the other items in sequence are defined in terms of the
+previous item until the output is reached.
