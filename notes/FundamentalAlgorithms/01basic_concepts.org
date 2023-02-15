@@ -7,16 +7,6 @@
   be used in order to refer to Euclid's steps to find the Greatest Common Divisor
   of two numbers
 
-#+begin_src python
-def gcd(m, n):
-  r = m // n
-  if r == 0:
-    return n
-  else:
-    return gcd(n, r)
-
-#+end_src
-
 #+begin_src scheme
 (define (gcd m n)
   (let ((r (// m n)))
@@ -65,3 +55,12 @@ x_0 = x
 
 Here x is any number. All the other items in sequence are defined in terms of the
 previous item until the output is reached.
+
+** Mathematical Preliminaries
+
+First this section will merely be skimmed over in order to gain rough introduction
+and not necessarily and understanding of the mathematical notations and concepts
+used to explain the computation ideas in further sections of the book.
+
+The book `Concrete Mathematics` can be used as a more throughout learning of the
+concepts at hand.

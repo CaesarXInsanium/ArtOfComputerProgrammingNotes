@@ -33,3 +33,10 @@
   - 40 term project
   - 50 research problem
 
+** Procedure For Reading Sections
+
+- take handwritten notes on long paragraph sections
+- explore math concepts
+- finish draft on sketchbook
+- finalize in org document
+
