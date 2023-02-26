@@ -2,8 +2,9 @@
 
 ## Why Does This Repo Exist?
 
-This repo exists because in the future when I have time I want to be able to
-read and write org mode files.
+I wanted to read this series for a while, and it might take me forever,
+but eventually I will finish reading this series. Not seriously since
+it is only part of me learning data structures and algorithms.
 
 ## Goal's
 
@@ -11,13 +12,13 @@ read and write org mode files.
 - [ ] finish the exercises
 - [ ] learn how to use ORG Mode on Neovim
   - [ ] take notes in org mode format
-  - failed this miserablly since ORG mode suck on Neovim
+  - failed this miserably since ORG mode suck on Neovim
     and Neorg is still alpha stage
 - [ ] Read and reread the Material
 - [x] export documents using Pandoc
 - [ ] apply for job at Microsoft/Google/Facebook and then reject offer, begin startup
 - [x] write a README
-- [x] move to markdown format
+- [x] move to Markdown format
 
 ## Overall Book Notes
 
