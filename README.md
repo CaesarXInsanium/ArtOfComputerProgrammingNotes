@@ -7,14 +7,17 @@ read and write org mode files.
 
 ## Goal's
 
-- [X] Take notes on important things
+- [x] Take notes on important things
 - [ ] finish the exercises
 - [ ] learn how to use ORG Mode on Neovim
-- [ ] take notes in org mode format
+  - [ ] take notes in org mode format
+  - failed this miserablly since ORG mode suck on Neovim
+    and Neorg is still alpha stage
 - [ ] Read and reread the Material
-- [ ] export documents using Pandoc
-- [ ] get apply for job at Microsoft and then reject offer
-- [ ] write a README
+- [x] export documents using Pandoc
+- [ ] apply for job at Microsoft/Google/Facebook and then reject offer, begin startup
+- [x] write a README
+- [x] move to markdown format
 
 ## Overall Book Notes
 

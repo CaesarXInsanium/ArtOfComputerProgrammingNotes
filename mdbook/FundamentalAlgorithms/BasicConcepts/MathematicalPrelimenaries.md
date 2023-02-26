@@ -36,3 +36,30 @@ by the likes of me.
 
 R. W Floyd states that operations in computer languages can be formulated as logical
 rules that highlight assertions that can be proved. Whatever that means.
+
+## 1.2.2 Numbers, Powers and Logarithms
+
+This section simply goes over some properties and some sets of numbers.
+
+Integers are the set of numbers ranging from negative infinity and positive infinity
+and include zero. Positive numbers are counting numbers and negative numbers are
+the positive numbers minus zero.
+
+Rational numbers are those that can be described as ratio between an integer and
+a whole number. This includes fractions and finite decimals.
+
+Irrational Numbers cannot be described as fractions and are denoted as a decimal
+with an endless stream of numbers with no pattern or repetition. This includes pi
+and square root of two.
+
+Real numbers include rational number and irrational numbers.
+
+Complex numbers have a real part and an imaginary part and are denoted as the sum
+of the two parts. Based on a multiplying *i* against a real value and *i*.
+
+The book goes over intervals, open and closed. What exponents are, the definition
+of exponents and some properties of them.
+
+Logarithms are introduced and explain with some detail, they are presented as the
+operation that undoes the exponent. Goes into some detail on how to manually
+calculate the logarithm of a number with a base.
