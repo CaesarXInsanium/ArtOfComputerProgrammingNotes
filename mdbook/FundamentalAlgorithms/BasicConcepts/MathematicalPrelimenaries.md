@@ -63,3 +63,80 @@ of exponents and some properties of them.
 Logarithms are introduced and explain with some detail, they are presented as the
 operation that undoes the exponent. Goes into some detail on how to manually
 calculate the logarithm of a number with a base.
+
+## 1.2.3 Sums and Products
+
+Goes over the definition of a summation. It is the cumulative sum over a set of values
+indexed by a variable. Indices are over a set of constraints or an inclusive range.
+
+The summation of zero items is always zero. Nested summations can be thought of like
+this line of code.
+
+```c
+int i;
+int j;
+int n = INT_VALUE; // example value
+int m = INT_VALUE; // example value
+int sum = 0;
+for (i = 0; i < n; i++){
+  for(j = 0; j < m; j++){
+      sum += 1;
+  }
+}
+```
+
+It is very similar to this.
+
+\\(
+\sum_{i=0}^{n}{\sum_{j=0}^{m}1}
+\\)
+
+Like normal function it can be divergent if the limit goes to infinity if the indexing
+value approaches infinity and convergent if the limit goes approaches some finite
+value as the indexing value approaches infinity.
+
+Sums have certain algebraic properties that can and have been proven.
+
+Summations have the distributive property, meaning that the multiplication of two
+summations is the same as a nested summation.
+
+\\(
+(\sum_{R(i)}{a_i})(\sum_{S(j)}{b_j}) = \sum_{R(i)}{\sum_{S(j)}{a_i b_j}}
+\\)
+
+The variable and the conditions for a summation can be changed with a change in variable
+that is actually just a permutation. This is a way to restate the same summation
+without changing the actual value of the summation. Each value of the indexing
+variable is mapped to a different value.
+
+Nested summation can easily have the order of the summation reversed and changed.
+It will not change the value of the summation.
+
+Manipulating the domain of a summation is tricky. It involves changing the conditions
+of the variables and allows for the summation conditions to be expressed in different
+ways.
+
+We are shown examples on how to use and derive the given laws and properties of summations.
+This allows insight into how somebody managed to both figure them out and prove that
+summations have these given properties.
+The book also gives examples of conditional statements where a certain variable can
+have a value depending on the value of a different variable.
+
+\\(
+  \begin{array}{ c l }
+    \frac{x^2 - x}{2} & \quad \textrm{if } x \geq 1 \\
+    0                 & \quad \textrm{otherwise}
+  \end{array}
+\\)
+
+I read a mind blowing example in which conditional statements can be used to completely
+ignore certain indices for the value if be make the conditional value zero, like
+in this scheme procedure.
+
+```scheme
+(if (> b 0) 3 3)
+```
+
+Also, summation of different variables is possible, it is the same as nested summation,
+but I did not understand the given example. Maybe an alternative instruction is
+necessary.
