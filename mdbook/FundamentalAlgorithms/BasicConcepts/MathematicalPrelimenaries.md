@@ -134,9 +134,71 @@ ignore certain indices for the value if be make the conditional value zero, like
 in this scheme procedure.
 
 ```scheme
-(if (> b 0) 3 3)
+(if (even? i) num 0)
 ```
 
 Also, summation of different variables is possible, it is the same as nested summation,
 but I did not understand the given example. Maybe an alternative instruction is
 necessary.
+
+## 1.2.4 Integer Functions and Elementary Number Theory
+
+What is this section about? It is about how different properties of numbers
+can be used to final solutions to problems that no one asked for.
+
+We define the floor and ceiling functions over real numbers. The floor is
+defined as the largest integer less than or equal to n. The ceiling is the
+smallest integer greater than or equal to n.
+
+\\(
+\lfloor n \rfloor \le \lceil n \rceil
+\\)
+
+The mod operator does integer division between x and y and gives the remainder.
+
+\\(
+x \pmod y = r
+\\)
+
+This result in the properties that if y is greater than zero, the mod is greater
+than zero and the reverse is true.
+
+Putting the two concepts together, equation gives the quotient of the integer
+division of x and y.
+
+\\(
+\lfloor \frac{x}{y} \rfloor = q
+\\)
+
+Any real number can be defined as the sum of its floor and fractional part.
+
+\\(
+x = \lfloor x \rfloor + (x\mod 1)
+\\)
+
+Congruence is the property that two integers can have, it is said that two integers
+are congruent if when integer divided by the same value we get the same remainder
+
+\\(
+x \equiv y \pmod 9
+\\)
+
+If we have two values *x* and *y*, then these two are relatively prime is they have
+no common factor other than 1.
+
+\\(
+x \perp y \iff GCD(x,y) = 1
+\\)
+
+When a fraction is set to the lowest terms it means that the numerator and denominator
+are both relatively prime.
+
+These ideas lead to creation of Fermat's Little Theorem with states that if we have
+a prime value *p* and integer *a*, then that means a to the p minus a is an integer
+multiple of p
+
+\\(
+a^p \equiv a \pmod p
+\\)
+
+I will not bother with the proof, yet.
