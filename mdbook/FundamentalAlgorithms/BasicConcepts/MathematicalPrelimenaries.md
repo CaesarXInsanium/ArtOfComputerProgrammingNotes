@@ -202,3 +202,94 @@ a^p \equiv a \pmod p
 \\)
 
 I will not bother with the proof, yet.
+
+### 1.2.5 Permutations and Factorials
+
+We define in this chapter what permutations are. Given a set of n distinct objects
+permutations are the number of different ways to order the set of objects into
+a k sized array or thing. In other words given a deck of cards the permutations
+are the number of different ways to shuffle them..
+
+We define factorial to be this value. It can be described as this, if we have the
+first object, there are \\( n-1 \\) different objects to choose from. Pick the next
+item there are now \\( n - 2 \\) different objects to choose from, this continues
+until we reach a certain value.
+
+\\(
+p_nk = n * (n - 1) * (n - 2) ... (n - k + 1)
+\\)
+
+Here is the definition of the factorial.
+
+\\(
+p_nn = n! = n * (n - 1) * (n - 2) ... (1)
+\\)
+
+Given a set X containing the permutations of set A, if one were to add a new item
+to set A, generating the permutations is as simple is going trought each subset
+in set X and adding the new item on each possible location, creating a new permutation
+each time.
+
+Another definition of factorial.
+
+\\(
+n! = 1 * 2 * ... * n = \prod_{k=1}^n {k} = n * (n - 1)!
+\\)
+
+Factorial is defined recursively, as n time the factorial of the previous number.
+Due to this, factorials grow very fast and is considered one of the worst time
+complexities for an algorithm to have.
+
+Due to definition of factorials, all factorials where n is greater than 2 contain
+prime numbers in them and so the values of factorials cannot possibly be prime.
+
+Connections with other facts can be used to generate a function that can approximate
+the value of a factorial without the use of as many multiplications.
+
+Here is Euler's solution.
+
+\\(
+n! = \lim_{m->\infty}\frac{m^n * m!}{\prod_{k=1}^{m}{n + k}}
+\\)
+
+Here is Stirling's Solution.
+
+\\(
+\ln{n!} = a_1 n + a_2 n (n - 1) + ... = \sum_{k \leq 0}{a_{k+1} \prod_{0 <= j <= k}{n-j}}
+\\)
+
+These two expression have been proven to define n factorial for all real values and
+even complex values. Using this new definition.
+
+\\(
+n \not \exists , n! = \Gamma(n + 10) = n * \Gamma (n)
+\\)
+
+Where the gamma function is another ridiculous thing
+
+\\(
+\Gamma(x) = \frac{x!}{x} = \lim_{m->\infty}{\frac{m^x * m!}
+                                                 {\prod_{k=o}^{m}{x+k}}}
+\\)
+
+This new expression defines factorial for real and complex numbers.
+
+\\(
+(-z)! \Gamma(z) = \frac{\pi}{\sin(\pi z)}
+\\)
+
+We are also introduced to Factorial power of which there are two kinds
+
+Raising a value n to k falling down
+
+\\(
+x^{\emph{k}} = \prod_{j=0}^{k-1}(x-j)
+\\)
+
+Raising a value n to k rising up.
+
+\\(
+x^{\bar{k}} = \prod_{j=0}^{k-1}(x+j)
+\\)
+
+These two concepts are very much linked but I am at a point where I just don't care.
