@@ -292,4 +292,54 @@ Raising a value n to k rising up.
 x^{\bar{k}} = \prod_{j=0}^{k-1}(x+j)
 \\)
 
-These two concepts are very much linked but I am at a point where I just don't care.
+These two concepts are very much linked, but I am at a point where I just don't care.
+
+### 1.2.6 Binomial Coefficients
+
+Combinations of *n* objects taken *k* at a time is the definition of combinatorics.
+The order does not matter. It is the set of all the unique subsets of a set.
+In other words, given a set of people, how many different unique groups can be made
+from them. In my notebook I have an equation showing this, I do not want to write
+it in latex.
+
+Binomial coefficient is a method of determining combinations of objects, this
+is used in algorithm analysis. These result from multiplying out binomials raised
+to arbitrary power. These rapidly grow. This contains certain properties that are
+useful in other contexts. The notation is this.
+
+\\(
+r \choose k
+\\)
+
+Representations by factorials, the notation is short form for. Valid only when
+*n*, *k* are integers and greater than zero.
+
+\\(
+\frac{n!}{k!(n-k)!}
+\\)
+
+Symmetry condition used the top value around, Moving in and around parenthesis,
+used for multiplying diving some values and based from factorial definition. Used
+for combining with other expressions for algebraic goodness.
+
+Addition formula is used for expending the expression, Summation formulas are used
+in summation expressions.
+
+The big one is the Binomial theorem in that how and why binomials raised to powers
+expand to polynomial expressions. This only works if r is an integer and greater
+than zero.
+
+\\(
+(x+y)^r = \sum_k {x^k y^{r-k}}
+\\)
+
+Negating the upper index is a useful transformation that leads to the summation
+formula. The sun of Products is used for summing over product of binomial coefficients.
+
+Hypergeometric functions are the super class of something, an over generalization
+that the binomial theorem and combinations are derived from.
+
+Stirling's numbers are the numbers that show up when expanding a binomial raised
+to a power to a full polynomial. The those types are used to convert factorial
+and ordinary powers to and from. Some more properties are defined but at this point
+I don't get shite.
