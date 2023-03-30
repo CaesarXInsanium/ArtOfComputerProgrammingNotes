@@ -216,13 +216,13 @@ item there are now \\( n - 2 \\) different objects to choose from, this continue
 until we reach a certain value.
 
 \\(
-p_nk = n * (n - 1) * (n - 2) ... (n - k + 1)
+p_nk = n *(n - 1)* (n - 2) ... (n - k + 1)
 \\)
 
 Here is the definition of the factorial.
 
 \\(
-p_nn = n! = n * (n - 1) * (n - 2) ... (1)
+p_nn = n! = n *(n - 1)* (n - 2) ... (1)
 \\)
 
 Given a set X containing the permutations of set A, if one were to add a new item
@@ -233,7 +233,7 @@ each time.
 Another definition of factorial.
 
 \\(
-n! = 1 * 2 * ... * n = \prod_{k=1}^n {k} = n * (n - 1)!
+n! = 1 *2* ... *n = \prod_{k=1}^n {k} = n* (n - 1)!
 \\)
 
 Factorial is defined recursively, as n time the factorial of the previous number.
@@ -357,3 +357,47 @@ This leads to Bernalli numbers which are defined in terms of harmonics sums
 but with some special things that I do not understand.
 
 At the end of the day the math is incomprehensible, for me at this point.
+
+### 1.2.8 Fibonacci Numbers
+
+Fibonacci's numbers are defined as a sequence of numbers in which each value
+is the sum of the previous two values.
+
+```scheme
+(define (fib n)
+  (cond ((= n 0) 0)
+        ((= n 1) 1)
+        ((neg? n) 0)
+        (else (+ (fib (- n 1))
+                 (fib (- n 2))))))
+```
+
+I can best express this value as a piece of scheme code. This sequence was created
+as a solution to a problem using rabbits and their extremes' multiplication. It
+was described first by two Indian mathematicians Gopala and Hemacandra of which
+the names are spelled with incorrect characters.
+
+Fibonacci numbers show up in some problem sets and identities, can be used to
+prove some interesting question such as is \\( 2^127 -1 \\) prime and the answer
+is yes.
+
+These lead to the idea of the Golden ration, since the ratio of the pair
+approaches this value.
+
+\\(
+\phi \approax \frac{F_{n+1}}{F_n}
+\\)
+
+There are other identities like.
+
+\\(
+F_{n+1} * F_{n-1} - F_n^2 = (-1)^n
+\\)
+
+Which can lead to a proof that about GCD of values in sequence of the Fibonacci
+numbers.
+
+Taking the work in proving facts about Fibonacci numbers leads to a concept
+known as `generating functions`.
+
+### 1.2.9 Generating Functions
