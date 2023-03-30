@@ -343,3 +343,17 @@ Stirling's numbers are the numbers that show up when expanding a binomial raised
 to a power to a full polynomial. The those types are used to convert factorial
 and ordinary powers to and from. Some more properties are defined but at this point
 I don't get shite.
+
+### 1.2.7 Harmonic Numbers
+
+Harmonic numbers show up rarely in mathematics, but understanding them hold
+the key to understanding algorithms in a way that I do not yet fully understand.
+
+Harmonics numbers are the defined to value n, as the sum of inverses of value
+k from 1 to n. This sum eventually converges. There is a way to approximate
+with value with a smaller expression, but I am to lazy to write it in Latex.
+
+This leads to Bernalli numbers which are defined in terms of harmonics sums
+but with some special things that I do not understand.
+
+At the end of the day the math is incomprehensible, for me at this point.

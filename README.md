@@ -6,19 +6,23 @@ I wanted to read this series for a while, and it might take me forever,
 but eventually I will finish reading this series. Not seriously since
 it is only part of me learning data structures and algorithms.
 
+This is only a way to introduce me to some math related to Algorithms,
+proofs and Computer Science stuff.
+
 ## Goal's
 
 - [x] Take notes on important things
 - [ ] finish the exercises
+  - currently failing miserably
 - [ ] learn how to use ORG Mode on Neovim
-  - [ ] take notes in org mode format
   - failed this miserably since ORG mode suck on Neovim
     and Neorg is still alpha stage
-- [ ] Read and reread the Material
+- [ ] Reread the Material
 - [x] export documents using Pandoc
-- [ ] apply for job at Microsoft/Google/Facebook and then reject offer, begin startup
+- [ ] apply for job at Microsoft/Google/Red Hat/System76 and then reject offer, begin startup
 - [x] write a README
 - [x] move to Markdown format
+- [ ] reach section 1.3, then switch over to CLRS
 
 ## Overall Book Notes
 
@@ -33,7 +37,8 @@ it is only part of me learning data structures and algorithms.
 
 ## Procedure For Reading Sections
 
-- take handwritten notes on long paragraph sections
+- Take handwritten notes on long paragraph sections
 - explore math concepts
-- finish draft on sketchbook
+  - in retrospect the author does say to skim the math.
+- Finish draft on sketchbook
 - finalize in org document
