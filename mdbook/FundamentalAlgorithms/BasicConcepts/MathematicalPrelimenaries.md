@@ -401,3 +401,23 @@ Taking the work in proving facts about Fibonacci numbers leads to a concept
 known as `generating functions`.
 
 ### 1.2.9 Generating Functions
+
+This section goes over a technique that is used for exploring the different
+sequences of numbers like Fibonacci numbers and the like and that is generating
+functions. In a nutshell from my understanding generating functions are a sum of
+elements in the sequence each multiplied against a power of a value z
+and the result is another function that when we plug z into it, it can tell us
+information about the sequence in question.
+
+This summation has properties related to addition in which different generated
+functions can be added together. Shifting relates to properties that can be explored
+in order to answer questions about the sequences. Multiplication defines the methods
+in which two generating functions can be added together. Change in Z value can be
+achieved in order to calculate special values for z. Extracting the coefficient is
+done in order to get a value of a specific coefficient. If it converges for a specific
+Z value then it converges for all of them.
+
+At this point what am I doing with my life. Finally, we have reached the interesting
+part which is Analysis of an Algorithm.
+
+### 1.2.10 Analysis of an Algorithm
