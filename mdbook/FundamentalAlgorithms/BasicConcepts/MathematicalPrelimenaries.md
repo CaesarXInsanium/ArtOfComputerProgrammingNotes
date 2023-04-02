@@ -421,3 +421,25 @@ At this point what am I doing with my life. Finally, we have reached the interes
 part which is Analysis of an Algorithm.
 
 ### 1.2.10 Analysis of an Algorithm
+
+In order to analyze an algorithm, we must first clearly define it. What are the
+possible steps, the possible inputs and the possible outputs. What language are we
+using do define it, mathematics terminology or programming language.
+
+The book defines a simple algorithm that loops over an array and finds the maximum value.
+
+We take a look at each step individually and consider how many times all steps takes
+in relation to input size n. We sum them up, and we get a time take to complete algorithm
+based on input size n.
+
+If we want to find the average value, certain assumptions must be made. All values are unique,
+and all permutations are equally likely. We can either use a probability function and sum up
+and divide the many different values. Or we can use a generating function in order to quickly
+differentiate and get the average values and standard deviation. This builds on all the previously learned
+concepts. We find summations, binomial coefficients and Stirling numbers. This way we define
+the mean and variance functions in terms of the generating function.
+
+The book also explains some elementary probability theory which I did not fully grasp. I would need
+a more solid background in such topics in order to understand this concept. I copied the
+math and equations on the book, but I do not understand them. It also proves a theorem that I
+do not know how to use, much less understand the proof.
