@@ -443,3 +443,46 @@ The book also explains some elementary probability theory which I did not fully 
 a more solid background in such topics in order to understand this concept. I copied the
 math and equations on the book, but I do not understand them. It also proves a theorem that I
 do not know how to use, much less understand the proof.
+
+### 1.2.11 Asymptotic Representations
+
+It is neccesary to approximate values in order to compare them to other values if we do
+not know the exact values. This is the core concept with asymptotic notation and why they
+are used in order to describe the running time of algorithms.
+
+#### 1.2.11.1 The O-Notation, Big O
+
+Invented by Paul Bachman in order to confure computer science students, this is defined
+over a function *f* with argument *n* that is an integer.
+
+\\(
+O(f(n))
+\\)
+
+It simply means that there exists positive constants M and n_0 such that it satisfies
+it is equal to a simpler function. It simply means I think that as n gets bigger
+and bigger, there exists a those values that can be used to multiply against a simpler
+function and that better describes the function. This merely denotes an approximation
+and to give a reference by which it can be compared to other algorithms and functions.
+When saying that a function is of magnitude of some Big O it is important to write the
+Big O in the right hand side of equality notation. The context and universe discourse
+should also be made very clear.
+
+Abuse of Big O notation occurs when it is used for anything that is not the worst
+case scenario. Lower bounds are denoted with the Big Omega notation.
+
+\\(
+g(n) = \Omega(f(n))
+\\)
+
+This means that there are two values M and n_0 such that something something something
+I do not understand.
+
+All in all the big takeaway is that an algorithm with a Big Omega n square time complexity
+will not be as efficient as an algorithm with Big O time complexity n log n.
+
+Exact time complexity is denoted with Big Theta.
+
+#### 1.2.11.2 Euler's Summation Formula
+
+
