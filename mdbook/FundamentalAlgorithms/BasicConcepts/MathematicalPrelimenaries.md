@@ -446,13 +446,13 @@ do not know how to use, much less understand the proof.
 
 ### 1.2.11 Asymptotic Representations
 
-It is neccesary to approximate values in order to compare them to other values if we do
+It is necessary to approximate values in order to compare them to other values if we do
 not know the exact values. This is the core concept with asymptotic notation and why they
 are used in order to describe the running time of algorithms.
 
 #### 1.2.11.1 The O-Notation, Big O
 
-Invented by Paul Bachman in order to confure computer science students, this is defined
+Invented by Paul Bachman in order to confuse computer science students, this is defined
 over a function *f* with argument *n* that is an integer.
 
 \\(
@@ -485,4 +485,18 @@ Exact time complexity is denoted with Big Theta.
 
 #### 1.2.11.2 Euler's Summation Formula
 
+An efficient way to get a sum over an infinite number of elements is to define an integral.
+This only works if the function that we are working with is a differentiable.
 
+Bernoulli Numbers are the coefficients to a special series that I do not understand, and
+they apparently show up in mathematics here and there.
+
+Most of the stuff here is math magic.
+
+#### 1.2.11.3 Some Asymptotic Calculations
+
+This section explores some special sums in order to approximate their values. I could not
+follow the math since it was so complicated, and I simply wish to skim it.
+
+The big takeaway here is that all the techniques and knowledge come together in order
+to make a method for approximating values of a finite and infinite sums.
