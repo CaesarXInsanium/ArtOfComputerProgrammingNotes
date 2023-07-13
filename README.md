@@ -9,17 +9,19 @@ it is only part of me learning data structures and algorithms.
 This is only a way to introduce me to some math related to Algorithms,
 proofs and Computer Science stuff.
 
+I have decided to give up on this.
+
 ## Goal's
 
 - [x] Take notes on important things
 - [ ] finish the exercises
   - currently failing miserably
 - [ ] learn how to use ORG Mode on Neovim
-  - failed this miserably since ORG mode suck on Neovim
+  - failed this miserably since ORG mode sucks on Neovim
     and Neorg is still alpha stage
 - [ ] Reread the Material
 - [x] export documents using Pandoc
-- [ ] apply for job at Microsoft/Google/Red Hat/System76 and then reject offer, begin startup
+- [ ] apply for a job at Microsoft/Google/Red Hat/System76 and then reject the offer, begin a startup
 - [x] write a README
 - [x] move to Markdown format
 - [ ] reach section 1.3, then switch over to CLRS
