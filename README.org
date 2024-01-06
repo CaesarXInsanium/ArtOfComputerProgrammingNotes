@@ -1,0 +1,63 @@
+* Notes on Book "The Art of Computer Programming"
+:PROPERTIES:
+:CUSTOM_ID: notes-on-book-the-art-of-computer-programming
+:END:
+** Why Does This Repo Exist?
+:PROPERTIES:
+:CUSTOM_ID: why-does-this-repo-exist
+:END:
+I wanted to read this series for a while, and it might take me forever,
+but eventually I will finish reading this series. Not seriously since it
+is only part of me learning data structures and algorithms.
+
+This is only a way to introduce me to some math related to Algorithms,
+proofs and Computer Science stuff.
+
+I have decided to give up on this. ## Goal's
+
+- [X] Take notes on important things
+- [ ] finish the exercises
+  - currently failing miserably
+- [X] learn how to use ORG Mode on Neovim
+  - failed this miserably since ORG mode sucks on Neovim and Neorg is
+    still alpha stage
+- [ ] Reread the Material
+- [X] export documents using Pandoc
+- [ ] apply for a job at Microsoft/Google/Red Hat/System76 and then
+  reject the offer, begin a startup
+- [X] write a README
+- [X] move to Markdown format
+- [ ] move back to org format
+- [ ] reach section 1.3, then switch over to CLRS
+
+** Overall Book Notes
+:PROPERTIES:
+:CUSTOM_ID: overall-book-notes
+:END:
+- procedure for reading chapters on early part of Book 1
+- exercises ratings, difficulty scales logarithmic
+  - 00: easy
+  - 10: think
+  - 20: normal problems, should use pen and paper
+  - 30: somewhat hard, will require rigor
+  - 40: term project
+  - 50: research problems
+
+** Procedure For Reading Sections
+:PROPERTIES:
+:CUSTOM_ID: procedure-for-reading-sections
+:END:
+- Take handwritten notes on long paragraph sections
+- explore math concepts
+  - in retrospect the author does say to skim the math.
+- Finish draft on sketchbook
+- finalize in org document
+
+** Questions to Asks Self
+
+- Do I really want to spend time on creating a proper implementation of the MIX
+  virtual machine and assembler?
+- If so what is the prerequisite knowledge required in order to attemp such a daunting
+  task?
+- When will I try again to read the knowledge that is present in the series?
+- Is there some other things that are more deserving of my time?

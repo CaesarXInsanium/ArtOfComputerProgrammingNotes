@@ -1,0 +1,5 @@
+(defvar guix-prefix "/home/cxi/.guix-profile/share/mdk")
+(setq load-path (cons guix-prefix load-path))
+(autoload 'mixal-mode "mixval-mode" t)
+(add-to-list 'auto-mode-alist '("\\.mixal\\" . mixal-mode))
+(autoload 'mixvm "mixvm" "mixvm/gud interaction" t)

@@ -1,5 +1,6 @@
 * hello.mixal: this programs echo hello world to STDOUT
-* 
+* I am able to run this code directly inside of Emacs using
+* mixal-mode, (require 'mixvm)
 * label ins operand comment
 * last commnet line
 TERM  EQU 19  MIX console number
